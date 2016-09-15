@@ -2,10 +2,11 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     padding-top: 51px;
 }
 h1, h2, h3, h4, h4, h6 {
-    color: #313131;
+    color: #2d3238;
     font-family: 'Lato', sans-serif;
 }
 .col-xs-15,
@@ -146,7 +147,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd8d9', end
     background-color: #fff;
     color:rgb(76,161,175);
     font-size: 16px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
     margin-bottom: 0;
     padding: 12px 50px;
     text-transform: uppercase;
@@ -163,40 +164,63 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd8d9', end
     font-weight: 900;
 }
 #intro h6 {
-    color: #aaa;
+    color: #bec8ce;
+    font-size: 13px;
     font-weight: 700;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
 }
-#intro p:last-child {
+#intro h3 {
+    font-size: 28px;
+    margin: 0 0 10.5px 0;
+    line-height: 1.2;
+    color: #2d3238;
+}
+#intro .lead {
+    color: #6c6f73;
+    font-size: 19px;
     margin-bottom: 0;
 }
-
+#intro .readmore {
+    color: #4ca1af;
+    font-weight: normal;
+}
 #congratulations {
     background: #9dd8d9 url('http://www.hartenergy.com/industryvoice/images/elements_header_background.png') repeat;
     color: #fff;
     padding: 60px 0;
 }
 #profile-grid {
-    background: #f4f5f6;
+    background: #F4F5F6;
 }
-#profile-grid h2 {
-    line-height: 1.4;
-    margin: 0 auto .5em;
-    font-weight: 300;
-    text-align: center;
-}
-#profile-grid h2 span {
-    font-weight: 900;
+#profile-grid h3 {
+    font-size: 28px;
+    margin: 0 0 10.5px 0;
+    line-height: 1.2;
+    color: #2d3238;
 }
 #profile-grid .section-header p {
     margin-bottom: 0;
+    color: #6c6f73
 }
 #profile-grid h6 {
-    color: #aaa;
+    color: #bec8ce;
+    font-size: 13px;
     font-weight: 700;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
+}
+#profile-grid .lead {
+    color: #6c6f73;
+    font-size: 19px;
+    margin-bottom: 0;
+}
+#profile-grid .section-header hr {
+    border-color: #bec8ce;
+}
+.sponsor-text {
+    padding: 0 5%;
+    margin-bottom: 0;
 }
 #profile-grid .element {
     background: #215556;
