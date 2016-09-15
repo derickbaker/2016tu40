@@ -87,6 +87,9 @@ hr.sep {
     border: 1px solid #9dd8d9;
     width: 15%;
 }
+.section-header {
+    padding: 60px 0;
+}
 .navbar-brand {
     padding-top: 8px;
     padding-bottom: 0;
@@ -100,10 +103,14 @@ hr.sep {
     height: 32px;
 }
 #showcase {
-    background: #9dd8d9; /* Old browsers */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9dd8d9+0,4ca1af+100 */
+background: rgb(157,216,217); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgb(157,216,217) 0%, rgb(76,161,175) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgb(157,216,217) 0%,rgb(76,161,175) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgb(157,216,217) 0%,rgb(76,161,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd8d9', endColorstr='#4ca1af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     color: rgba(255,255,255,.8);
-    height: 75vh;
-    padding: 80px 0;
+    padding: 60px 0;
     overflow: hidden;
     position: relative;
 }
@@ -119,11 +126,7 @@ hr.sep {
     height: 100%;
     background-repeat: repeat;
 }
-#showcase .showcase-wrapper {
-    position: relative;
-    top: 50%;
-    transform: perspective(1px) translateY(-50%);
-}
+
 #showcase h1 {
     color: #fff;
     font-size: 4em;
@@ -141,7 +144,7 @@ hr.sep {
 }
 #showcase .button {
     background-color: #fff;
-    color:#9dd8d9;
+    color:rgb(76,161,175);
     font-size: 16px;
     letter-spacing: 0.1em;
     margin-bottom: 0;
@@ -152,23 +155,51 @@ hr.sep {
     padding: 60px 0;
 }
 #intro h2 {
-    font-size: 1.5em;
-    letter-spacing: .1em;
-    line-height: 1.4;
     margin: 0 auto .5em;
-    font-weight: 300;
-    color: #000;
+    font-weight: 300;    
     text-align: center;
-    text-transform: uppercase;
 }
 #intro h2 span {
     font-weight: 900;
 }
+#intro h6 {
+    color: #aaa;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
 #intro p:last-child {
     margin-bottom: 0;
 }
+
+#congratulations {
+    background: #9dd8d9 url('http://www.hartenergy.com/industryvoice/images/elements_header_background.png') repeat;
+    color: #fff;
+    padding: 60px 0;
+}
+#profile-grid {
+    background: #f4f5f6;
+}
+#profile-grid h2 {
+    line-height: 1.4;
+    margin: 0 auto .5em;
+    font-weight: 300;
+    text-align: center;
+}
+#profile-grid h2 span {
+    font-weight: 900;
+}
+#profile-grid .section-header p {
+    margin-bottom: 0;
+}
+#profile-grid h6 {
+    color: #aaa;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
 #profile-grid .element {
-    background-color: #215556;
+    background: #215556;
     display: block;
     float: left;
     height: 100%;
@@ -221,7 +252,7 @@ hr.sep {
     transition: background-color .3s;
 }
 #profile-grid .element .element-info:hover {
-    background-color: rgba(157, 216, 217,.6);
+    background-color: rgba(76,161,175,.6);
     -webkit-transition: background-color .3s;
     transition: background-color .3s;
 }
@@ -300,9 +331,7 @@ hr.sep {
     #showcase h1 {
         font-size: 6.250em;
     }
-    #intro h2 {
-        font-size: 2.25em;
-    }
+
     #footer .copyright {
         text-align: right;
     }
